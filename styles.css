@@ -7,7 +7,7 @@ body {
 
 .section-1{
     background-color: #1B4D3E;
-    color: #F9FAF8;
+    color: #e5e7eb;
     padding: 32px 120px;
 }
 
@@ -25,6 +25,7 @@ body {
 h1{
     font-size: 48px;
     font-weight: extra-bold;
+    color: #F9FAF8;
 }
 
 h2{
@@ -52,8 +53,22 @@ ul{
 
   .logo{
     font-size: 24px;
+    color: #F9FAF8;
   }
 
   #main-img{
     width: 400px;
   }
+
+  button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+  
+  button.sign-up {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+ }
