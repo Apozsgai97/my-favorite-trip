@@ -20,6 +20,9 @@ body {
 .introduction{
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    text-align: center;
 
 }
 h1{
@@ -90,6 +93,8 @@ ul{
  .img-and-text{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 12px;
     margin-top: 40px;
  }
 
