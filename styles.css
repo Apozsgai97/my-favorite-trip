@@ -22,6 +22,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 12px;
+    align-items: center;
     text-align: center;
 
 }
@@ -104,3 +105,17 @@ ul{
     margin-top: 12px;
  }
 
+ .section-3{
+    background-color: #A9BA9D;
+    padding: 80px 200px;
+ }
+
+.author{
+    text-align: end;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.quote{
+    font-style: italic;
+    line-height: 150%;
+}
