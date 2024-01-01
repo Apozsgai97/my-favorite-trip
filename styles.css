@@ -1,0 +1,41 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column; 
+}
+
+.section-1{
+    background-color: #1B4D3E;
+    color: #F9FAF8;
+    margin:auto;
+}
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+h2{
+    font-size: 28px;
+}
+
+p{
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .logo{
+    font-size: 24px;
+  }
