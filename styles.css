@@ -1,7 +1,6 @@
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin: 0;
-    min-height: 100vh;
     display:flex;
     flex-direction: column; 
 }
@@ -9,7 +8,19 @@ body {
 .section-1{
     background-color: #1B4D3E;
     color: #F9FAF8;
-    margin:auto;
+    padding: 32px 120px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.introduction{
+    display:flex;
+    justify-content: space-between;
+
 }
 h1{
     font-size: 48px;
@@ -28,6 +39,9 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
   }
 
   a {
@@ -38,4 +52,8 @@ ul{
 
   .logo{
     font-size: 24px;
+  }
+
+  #main-img{
+    width: 400px;
   }
