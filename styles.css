@@ -20,7 +20,6 @@ body {
 .introduction{
     display:flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 12px;
     align-items: center;
     text-align: center;
@@ -38,6 +37,7 @@ h2{
 
 p{
     font-size: 18px;
+    max-width: 400px;
 }
 
 ul{
@@ -69,23 +69,25 @@ ul{
     padding: 8px 16px;
     border-radius: 8px;
     font-size: 18px;
+    height: 40px;
   }
   
   button.sign-up {
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: green;
+    border: 1px solid white;
     color: white;
+    align-self: center;
  }
 
  .section-2{
     background-color: white;
     color: black;
-    padding: 32px 120px;
+    padding: 80px 120px;
     text-align: center;
  }
  .countries-img{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border: 8px #1B4D3E;
     border-style: solid;
     border-radius: 25px;
@@ -119,3 +121,23 @@ ul{
     font-style: italic;
     line-height: 150%;
 }
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-segment{
+    background-color: green;
+    margin: 40px;
+    padding: 80px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    border-radius: 10px;
+
+}
+
+
